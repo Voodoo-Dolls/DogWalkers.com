@@ -8,34 +8,62 @@
 </head>
 <body>
     <header id="header">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#email" class="nav-link">Contact Us</a>
+        </nav>
         <div class="container">
             <div class="logo">
-                <img src="/images/logo.jpg" alt="Dog Walkers Logo">
+                <img src="https://static.vecteezy.com/system/resources/previews/009/551/676/original/shy-dog-logo-illustration-depicting-shy-dog-suitable-for-pet-company-free-vector.jpg" alt="Dog Walkers Logo" id="header-img">
                 <h1>Dog Walker</h1>
             </div>
-            <nav>
-                <a href="" class="nav-link">About Us</a>
-                <a href="" class="nav-link">Pricing</a>
-                <a href="" class="nav-link">Contact Us</a>
-            </nav>
         </div>
     </header>
     <main>
-        <div class="container about">
+        <div class="container about" id="about">
             <h2>About Us</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
         </div>
-        <div class="container pricing">
+
+        <div class="container pricing" id="pricing">
             <h2>Pricing</h2>
             <div class="prices">
                 <div class="price_container">
-                    <h2></h2>
+                    <img src="https://cdn.discordapp.com/attachments/217457291891310602/1138215690822746232/dogprint-01.png" alt="dog print">
+                    <h2>Basic</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    </ul>
                 </div>
-                <div class="price_container"></div>
-                <div class="price_container"></div>
+                <div class="price_container">
+                    <img src="https://cdn.discordapp.com/attachments/217457291891310602/1138215690822746232/dogprint-01.png" alt="dog print">
+                    <h2>Mega</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, ea!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>
+                </div>
+                <div class="price_container">
+                    <img src="https://cdn.discordapp.com/attachments/217457291891310602/1138215690822746232/dogprint-01.png" alt="dog print">
+                    <h2>Ultra</h2>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+        <form action="https://www.freecodecamp.com/email-submit" id="form" class="container">
+            <h2>Newsletter</h2>
+            <input type="email" placeholder="Sign Up With Email Here" id="email" name="email">
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
     </main>
-    
 </body>
 </html>
